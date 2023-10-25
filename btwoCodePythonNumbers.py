@@ -33,3 +33,9 @@ print(-15//-4)
 print(divmod(20,3))
 print(divmod(20,3.5))
 
+print("Sayılar toplamı : " + str(5+195+76))
+print("Sayılar farkı : "+ str(687-64))
+print("Sayılar çarpımı: "+str(8748*8*646*5468))
+print("Sayılar bölümü : "+str(646687/448))
+print("Sayılar bölümünden kalan : "+str(646687%448))
+

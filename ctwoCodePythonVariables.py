@@ -74,8 +74,17 @@ print("Adres: "+musteriAdres)
 
 
 """
-
+   2- Aşagıdaki siparişlerin toplam bilgisini hesaplayınız.
+        Sipariş 1 => 310   TL
+        Sipariş 2 => 1200.5 TL
+        Sipariş 3 => 786.95 TL
 """
+order1 = 310
+order2 = 1200.5
+order3 = 786.95
+total = order1+order2+order3	
+print("Total:",total)
+
 
 
 
