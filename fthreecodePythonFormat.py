@@ -55,5 +55,13 @@ print(result)
 
 
 
+# 9- Yazı içerisindeki istenen metni bul ve indeksi ver
+Yazı  = "lorem ipsum is dummy text lorem ipsum is dummy text lorem ipsum is dummy text lorem ipsum is dummy text lorem ipsum is dummy text"
+result = Yazı.find("sum")
+print(result)
+
+#10 -Yazıyı ortala
+result = Yazı.center(180,"*")
+print(result)
 
 

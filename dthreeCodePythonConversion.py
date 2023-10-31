@@ -52,3 +52,29 @@ pi = 3.14
 alan = pi*r**2
 cevre = 2*pi*r
 print("Alan : "+str(alan)+" Çevre : "+str(cevre))
+
+
+# Kare , Dikdörtgen , Silindir
+# Kare Alan : a*a
+# Kare Çevre : 4*a
+karekenar = int(input("Karenin kenar uzunluğu : "))
+karealan = karekenar**2
+karecevre = 4*karekenar
+print("Karenin alanı : "+str(karealan)+" Karenin çevresi : "+str(karecevre))
+
+# Dikdörtgen Alan : a*b
+# Dikdörtgen Çevre : 2*(a+b)
+dikdörtgenkısakenar = int(input("Dikdörtgenin kısa kenar uzunluğu : "))
+dikdörtgenuzunkenar = int(input("Dikdörtgenin uzun kenar uzunluğu : "))
+dikdörtgenalan = dikdörtgenkısakenar*dikdörtgenuzunkenar
+dikdörtgencevre = 2*(dikdörtgenkısakenar+dikdörtgenuzunkenar)
+print("Dikdörtgenin alanı : "+str(dikdörtgenalan)+" Dikdörtgenin çevresi : "+str(dikdörtgencevre))
+
+# Silindir Alan : 2πr(r+h)
+# Silindir Hacim : πr^2h
+silindiryaricap = int(input("Silindirin yarıçapı : "))
+silindiryukseklik = int(input("Silindirin yüksekliği : "))
+silindiralan = 2*pi*silindiryaricap*(silindiryaricap+silindiryukseklik)
+silindirhacim = pi*silindiryaricap**2*silindiryukseklik
+print("Silindirin alanı : "+str(silindiralan)+" Silindirin hacmi : "+str(silindirhacim))
+

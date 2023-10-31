@@ -88,4 +88,22 @@ print("Total:",total)
 
 
 
+'''
+        3- Aşağıdaki bilgileri yazdırınız.
+        Name: Çınar
+        Surname: Yazılım
+        Age:46
+        Job: Engineer
+        Description: Lorem ipsum dolor sit amet consectetur adipisicing elit.46
+        Keywords: python, java, c#, html-css, javascript, sql, Android ,Unity,Siber güvenlik,Yapay zeka
 
+'''
+
+name = "Çınar"
+Surname = "Yazılım"
+age = 46
+job = "Engineer"
+description = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+Keywords = "python, java, c#, html-css, javascript, sql, Android ,Unity,Siber güvenlik,Yapay zeka"
+
+print(f"Name:{name}\nSurname:{Surname}\nAge:{age}\nJob:{job}\nDescription:{description}\nKeywords:{Keywords}")

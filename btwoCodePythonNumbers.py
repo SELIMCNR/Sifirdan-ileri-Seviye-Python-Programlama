@@ -39,3 +39,6 @@ print("Sayılar çarpımı: "+str(8748*8*646*5468))
 print("Sayılar bölümü : "+str(646687/448))
 print("Sayılar bölümünden kalan : "+str(646687%448))
 
+
+print(f"Sayılar tam bölüm : {15//4}")
+print(f"Sayılar üs alma : "{15**4})

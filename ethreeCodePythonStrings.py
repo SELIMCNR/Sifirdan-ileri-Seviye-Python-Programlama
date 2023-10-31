@@ -16,3 +16,20 @@ print(greeting[:25])
 print(greeting[2:30:2])
 
 
+Soru1 = 'lorem ipsum is dummy text'
+Soru2 = 'lorem ipsum is not dummy text'
+Soru3 = 'lorem ipsum is dummy text lorem ipsum is dummy text lorem ipsum is dummy text'
+
+Sorular = Soru1 + Soru2 + Soru3 
+length = len(Sorular)
+print(Sorular)
+print(Sorular[0:100])
+print(Sorular[0:5])
+print(Sorular[0:2:18])
+print(Sorular[0:3:21])
+print(Sorular[length-1])
+print(Sorular[0:20])
+
+
+
+
