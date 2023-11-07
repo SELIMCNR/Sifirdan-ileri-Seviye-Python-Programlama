@@ -27,3 +27,7 @@ users = [userA,userB]
 
 print(users[1][1])
 
+ListGroup = ['one','two','three','four','five','six','seven','eight','nine','ten']
+print(ListGroup[0])
+print(ListGroup[2:15])
+print(ListGroup[-5])

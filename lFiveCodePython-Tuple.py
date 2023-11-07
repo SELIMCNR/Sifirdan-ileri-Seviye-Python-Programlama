@@ -23,3 +23,6 @@ print(list)
 print(tuple)
 print(tuple.count('damla'))
 print(tuple.index('damla'))
+
+tupleDemet = ('11','22','33','44','55','66','77','88','99','00')
+print(tupleDemet[0:3])

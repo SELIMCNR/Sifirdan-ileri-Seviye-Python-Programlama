@@ -64,4 +64,6 @@ print(result)
 result = Yazı.center(180,"*")
 print(result)
 
-
+#11 - Yazıyı sağa yasla
+result = Yazı.rjust(180,"*")    
+print(result)

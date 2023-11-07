@@ -49,3 +49,15 @@ result = f"{studentA[0]} {studentA[1]} {2023-studentA[2]} yaşında ve not ortal
 
 print(arabalar)
 print(result)
+
+#14 - Aşağıdaki bilgileri liste içinde saklayınız.
+    # ListA: AList BList CList
+    # ListB: SList TList  Klist
+    # ListC: XList YList  ZList
+
+ListA = ["AList","BList","CList"]
+ListB = ["SList","TList","KList"]
+ListC = ["XList","YList","ZList"]
+ListD = [ListA,ListB,ListC]
+print(ListD)
+

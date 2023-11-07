@@ -1,12 +1,17 @@
 print(5000-(5000*0.27))
 print(4000-(4000*0.27))
 
+
+
 maasA = 5000
 maasB = 4000
 vergi = 0.27
 
 print(maasA-(maasA*vergi))
 print(maasB-(maasB*vergi))
+
+print(5000*0.73)
+print(4000*0.72)
 
 #Değişken Tanımlama Kuralları
 # 1) Rakam ile başlayamaz.   #1DEGİSKEN=54   HATALI
@@ -107,3 +112,10 @@ description = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
 Keywords = "python, java, c#, html-css, javascript, sql, Android ,Unity,Siber güvenlik,Yapay zeka"
 
 print(f"Name:{name}\nSurname:{Surname}\nAge:{age}\nJob:{job}\nDescription:{description}\nKeywords:{Keywords}")
+
+"""
+        4- Cümledeki toplam karakter sayısını bulunuz.
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+"""
+cümle = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+print(len(cümle)) #60

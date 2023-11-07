@@ -12,6 +12,7 @@ print(4-0.5)
 print(0.5*2)
 print(4/2)
 print(20/2.0)
+print(20/2.4)
 #üs alma : **
 print(2**3)
 print(2**0.5)

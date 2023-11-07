@@ -32,4 +32,9 @@ print(Sorular[0:20])
 
 
 
+cümle = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+print(cümle)
+print(cümle[0])
+print(cümle[0:2:20])
+print(cümle[-5])
 

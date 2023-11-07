@@ -78,3 +78,8 @@ silindiralan = 2*pi*silindiryaricap*(silindiryaricap+silindiryukseklik)
 silindirhacim = pi*silindiryaricap**2*silindiryukseklik
 print("Silindirin alanı : "+str(silindiralan)+" Silindirin hacmi : "+str(silindirhacim))
 
+# 1- Kullanıcıdan vize(%60) ve final(%40) notunu alıp ortalama hesaplayınız.
+vize = int(input("Vize notunuz : "))
+final = int(input("Final notunuz : "))
+ortalama = vize*0.6+final*0.4
+print("Ortalamanız : "+str(ortalama))

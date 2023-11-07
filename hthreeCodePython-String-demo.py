@@ -44,3 +44,6 @@ result = 'Hello World'.replace('World','There')
 result = course.split(' ')
 
 print(result)
+
+# 12- 'Merhaba' ifadesini 5 defa yan yana yazdırın.
+print('Merhaba '*5)

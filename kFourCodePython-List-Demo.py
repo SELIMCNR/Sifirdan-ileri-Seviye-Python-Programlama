@@ -8,7 +8,7 @@ names.insert(0,"Sena")
 # 3- "Adam" ismini listeden siliniz.
 names.remove("Adam")
 # 4- "Adam" isminin indeksi nedir ?
-result = names.index("Adam")
+result = names.index("Tracy")
 # 5- "Ali" listenin bir elemanı mıdır ?
 result = "Ali" in names
 # 6- Liste elemanlarını ters çevirin.
@@ -39,3 +39,9 @@ result = markalar
 # 14- Liste elemanlarını ekrana yazdırınız.
 print(result)
 
+# 15- Listeleri yan yana yazdırınız.
+List1 = ['elma','armut','muz']
+List2 = ['samsung','apple','huawei']
+List3 = ['kalem','silgi','defter']
+List4 = [List1,List2,List3]
+print(List4)

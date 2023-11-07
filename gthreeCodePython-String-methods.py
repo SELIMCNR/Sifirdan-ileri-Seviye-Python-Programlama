@@ -17,3 +17,9 @@ message = message.center(50,'*') # center() methodu string ifadeyi ortalar.
 #w3schools pythonda ayrıntılı methodlar var.
 print(message)
 print(message[2]) # splitten gelen listeyi index numarasına göre yazdırır.
+message = " Hello There. My name is Selim Çınar."
+#Replace methodu
+message = message.replace(' ','-')
+print(message)
+message = message.replace('Hello-There.','Hi the')
+print(message)
