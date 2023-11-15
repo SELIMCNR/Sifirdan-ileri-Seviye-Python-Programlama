@@ -26,4 +26,9 @@ for item,value in d.items():
     print(item,value)    
 
 
+scores = [10,20,30,40,50,60,70,80,90,100]
+toplamscore = 0
+for score in scores:
+    toplamscore+=score
+print(toplamscore)
     

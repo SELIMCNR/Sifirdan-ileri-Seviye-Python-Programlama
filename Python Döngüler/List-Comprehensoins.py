@@ -85,3 +85,10 @@ if asalmi:
     print("Sayı asaldır.")
 else : 
     print("Sayı asal değildir.")    
+
+    
+
+
+# 1-100 arasındaki 2,3,5,7 'nin katını bulunuz
+numbers= [ x for x in range(1,500) if (x%2==0 and x%3==0 and x%5==0 and x%7==0)  ]
+print("2,3,5,7'nin katı  : " ,numbers)    

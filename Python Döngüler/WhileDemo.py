@@ -73,6 +73,11 @@ while x<5:
         break
     print(x)
 
-
+y=30
+while y>20:
+    y -=1
+    if y==25:
+        break
+    print(y)
 
 

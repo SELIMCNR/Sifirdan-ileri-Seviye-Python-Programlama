@@ -42,4 +42,46 @@ for urun in urunler:
     if (int(urun['price']) <= 5000):
         print(urun['name']) 
 
+# 7- Tek sayıları döngü içinde ekrana yazdırınız.
+num =range(0,50)
+for n in num:
+    if (n % 2 == 1):
+        print(n)
+# 8-Çift sayıları döngü içinde ekrana yazdırınız.
+for n in num:
+    if (n % 2 == 0):
+        print(n)
+# 9- 0-50 arasındaki tek sayıların toplamı nedir ?
+toplam = 0
+for n in num :
+    if (n % 2 == 1):
+        toplam = toplam + n
+print(toplam)
+# 10- 0-50 arasındaki çift sayıların toplamı nedir ?
+toplam = 0
+for s in num :
+    if (s % 2 == 0):
+        toplam = toplam + s
+print(toplam)
+
+# Rastgele 50 sayıdan sayı bilme 
+import random
+sayi = random.randint(1,50)
+sayac=0
+
+tutulansayi = int(input('sayi tutunuz:'))
+while True:
+    if (sayi == tutulansayi):
+        print('tebrikler',sayac,'defada bildiniz')
+        sayac = sayac + 1
+        break
+    elif (sayi > tutulansayi):
+        print('yukarı')
+        sayac = sayac + 1
+        tutulansayi = int(input('sayi tutunuz:'))
+    else:
+        print('aşağı')
+        sayac = sayac + 1
+        tutulansayi = int(input('sayi tutunuz:'))
+
 
