@@ -42,4 +42,6 @@ print("Sayılar bölümünden kalan : "+str(646687%448))
 
 
 print(f"Sayılar tam bölüm : {15//4}")
-print(f"Sayılar üs alma : "{15**4})
+print(f"Sayılar üs alma : {15**4}")
+
+print(f"Sayılar tam bölüm : {15//4} ve kalan : {15%4}")

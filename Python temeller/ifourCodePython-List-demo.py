@@ -61,3 +61,14 @@ ListC = ["XList","YList","ZList"]
 ListD = [ListA,ListB,ListC]
 print(ListD)
 
+
+list15 = ["myone","mytwo","mythree"]
+
+print(list15[::-1]) # listeyi ters çevirir.
+print(list15[0:2]) # listeyi 0. indexten 2. indexe kadar yazdırır.
+print(list15[0:3:2]) # listeyi 0. indexten 3. indexe kadar 2 şer 2 şer yazdırır.
+list15[0:2] = ["myfour","myfive"] # listeyi 0. indexten 2. indexe kadar olan kısmı değiştirir.
+print(list15)
+list15[-1] = "mysix" # listeyi sondan bir önceki indexi değiştirir.
+print(list15)
+print("myone" in list15) # listede myone var mı diye kontrol eder.

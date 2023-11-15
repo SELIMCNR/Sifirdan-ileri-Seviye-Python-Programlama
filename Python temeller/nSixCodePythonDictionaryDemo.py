@@ -35,3 +35,16 @@ for i in range(int(number)):
 print(ogrenciler)
 number = input("Which student do you want to see? ")
 print(f"Name: {ogrenciler[int(number)]['name']} Surname: {ogrenciler[int(number)]['surname']} Phone: {ogrenciler[int(number)]['phone']}")
+
+
+scores = {}
+number = input ("Score adding: ")
+for i in range(int(number)):
+    name = input("Name: ")
+    score = input("Score: ")
+    scores[i+1] = {
+        'name': name,
+        'score': score
+    }
+
+print(f"Name : {scores[int(number)]['name']} Score: {scores[int(number)]['score']}") 

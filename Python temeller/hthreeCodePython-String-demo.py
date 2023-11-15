@@ -47,3 +47,7 @@ print(result)
 
 # 12- 'Merhaba' ifadesini 5 defa yan yana yazdırın.
 print('Merhaba '*5)
+
+# 13- 'Hello World' karakter dizisinin başında ve sonundaki boşluk karakterlerini silin.
+result = 'Hello World'.strip()
+print(result)

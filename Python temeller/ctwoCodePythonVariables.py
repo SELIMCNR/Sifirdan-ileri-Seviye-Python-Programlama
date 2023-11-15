@@ -119,3 +119,6 @@ print(f"Name:{name}\nSurname:{Surname}\nAge:{age}\nJob:{job}\nDescription:{descr
 """
 cümle = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
 print(len(cümle)) #60
+
+#5-Cümledeki boşluk karakterlerini siliniz.
+print(cümle.replace(" ","")) 

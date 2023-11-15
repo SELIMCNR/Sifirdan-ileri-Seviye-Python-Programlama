@@ -45,3 +45,12 @@ List2 = ['samsung','apple','huawei']
 List3 = ['kalem','silgi','defter']
 List4 = [List1,List2,List3]
 print(List4)
+
+# 16 - Ekleme silme güncelleme işlemlerini yapınız listeye.
+# list1 = ["myone","mytwo","mythree"]
+list1 = ["myone","mytwo","mythree"]
+list1.append("myfour")
+list1.insert(0,"myzero")
+list1.remove("mythree")
+list1[0] = "mynewzero"
+print(list1)

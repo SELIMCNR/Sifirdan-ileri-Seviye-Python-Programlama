@@ -38,3 +38,9 @@ print(cümle[0])
 print(cümle[0:2:20])
 print(cümle[-5])
 
+sentence = 'My name is Selim Çınar and \n I am 23 years old.'
+school = 'I am studying at university in Turkey Kahramanmaraş Sütçü İmam University'
+section = 'Bilgisayar programcılığı'
+class1 = 'Graduate.'
+print(sentence +" "+ school +" "+ section+" "+ class1)
+      

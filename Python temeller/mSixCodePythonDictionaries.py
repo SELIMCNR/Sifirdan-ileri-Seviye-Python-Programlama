@@ -42,3 +42,26 @@ print(users['kadiraykut']['roles'][0])
 print(users['kadiraykut']['email'])
 print(users['kadiraykut']['address'])
 print(users['kadiraykut']['phone'])
+
+scores= {
+    'Player1':{
+        'score': 50,
+        'age': 36
+    },
+    'Player2':{
+        'score': 60,
+        'age': 24
+    },
+    'Player3':{
+        'score': 70,
+        'age': 30
+    }
+}
+if scores['Player1']['age'] >= 30:
+   print(f"Oyuncu skoru: {scores['Player1']['score']} ve yaşı: {scores['Player1']['age']}")
+else : 
+    print("Hata oluştu")
+if scores['Player2']['age'] < 30:
+   print(f"Oyuncu skoru: {scores['Player2']['score']} ve yaşı: {scores['Player2']['age']}")   
+else:
+   print("Hata oluştu")   

@@ -83,3 +83,10 @@ vize = int(input("Vize notunuz : "))
 final = int(input("Final notunuz : "))
 ortalama = vize*0.6+final*0.4
 print("Ortalamanız : "+str(ortalama))
+
+# 2- Kullanıcıdan ad,soyad ve numara bilgisini alarak bunları alt alta ekrana yazdırın.
+ad = input("Adınız :")
+soyad = input("Soyadınız : ")
+numara = input("Numaranız :")
+numara = int(numara)
+print("Adınız : "+ad+"\nSoyadınız : "+soyad+"\nNumaranız : "+str(numara))

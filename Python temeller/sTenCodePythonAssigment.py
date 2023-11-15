@@ -39,7 +39,17 @@ result = (x+y+z)%3
 # 4- y'nin x. kuvvetini hesaplayınız.
 result = y**x
 
-# 5- x, *y, z = numbers işlemine göre z'nin küpü kaçtır ?
+# 5- z'nin küpü kaçtır ?
 result = z**3
 # 6- x, *y, z = numbers işlemine göre y'nin değerleri toplamı kaçtır ?
+x, *y, z = numbers
 result = y[0]+y[1]+y[2]
+
+# 7- "abc" + "xyz" işleminin çıktısı nedir ?
+result = "abc"+"xyz"
+print(result)
+# 8- Kullanıcıdan alınan 2 sayının modu ? 
+a = int(input("1.sayı: "))
+b = int(input("2.sayı:"))
+result = a %b 
+print(result)

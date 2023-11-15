@@ -39,3 +39,12 @@ elif num < 0:
 else:
     print("sayı sıfır",num)        
 
+
+#Boy hesabı karşılaştırması
+boy = float(input("Boyunuz :   örnek(1.80)"))
+if boy>1.90 and boy<2.10:
+    print(f"Boyunuz bu  {boy} ve uzunsunuz ") 
+elif boy>1.70 and boy <1.90:
+    print(f"Boyunuz bu {boy} ve ortalama uzunluktasınız") 
+elif boy>1.50 and boy <1.70:
+    print(f"Boyunuz bu {boy} ve kısa boylusunuz")       

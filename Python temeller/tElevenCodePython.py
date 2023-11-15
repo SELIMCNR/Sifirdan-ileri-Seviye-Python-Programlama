@@ -48,3 +48,12 @@ email = input("email: ")
 password = input("password: ")
 result = (email == "email@sadikturan" and password == "123456")
 print(result)
+
+# 6- Girilen 3 adet kiloyu kıyasla ? 
+kilo1 = int(input("1.kilo: "))
+kilo2 = int(input("2.kilo: "))
+kilo3 = int(input("3.kilo:"))
+result = (kilo1>kilo2 and kilo1>kilo3) # kilo 1 en büyük
+result = (kilo2>kilo1 and kilo2>kilo3) # kilo 2 en büyük
+result = (kilo3>kilo1 and kilo3>kilo2) # kilo 3 en büyük
+print(result)

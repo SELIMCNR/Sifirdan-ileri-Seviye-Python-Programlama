@@ -46,3 +46,9 @@ if UserA[0] =="User":
     UserA.pop()
     UserA.sort()
     print(UserA)
+
+UserScore = [70,80,90,100]
+UserScore.sort()
+print(max(UserScore))
+print(min(UserScore))
+print(UserScore.count(70))    

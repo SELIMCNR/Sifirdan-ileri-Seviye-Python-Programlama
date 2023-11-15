@@ -18,3 +18,9 @@ fruits.pop()
 print(fruits)
 fruits.clear()
 print(fruits)
+
+tekrarYok = {1,2,3,4,5}
+tekrarYok = set(tekrarYok)
+tekrarYok.update([6,7,8,9,10]) 
+tekrarYok.add(1)   #tekrar eden veriler gözükmez
+print(tekrarYok)

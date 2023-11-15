@@ -110,3 +110,8 @@ name = 'Çınar'
 print('a' in name)
 print('a' not in name)
 
+
+# 1- Girilen bir sayının 3'ün 5'in ve 7'nin ve tek olma durumlarını kontrol ediniz.
+sayi = int(input("Sayı : "))
+result = (sayi%3==0) and (sayi%5==0) and (sayi%7==0) and (sayi%2==1)
+print(f"Sayı 3,5,7 'nin katı  ve tek sayı mıdır: {result}")

@@ -23,3 +23,13 @@ message = message.replace(' ','-')
 print(message)
 message = message.replace('Hello-There.','Hi the')
 print(message)
+
+#strip methodu
+message = " Hello There. My name is Selim Çınar."
+message = message.strip()
+print(message)
+
+#split methodu
+message = message.split(' ')
+print(message)
+print(message[0:5])

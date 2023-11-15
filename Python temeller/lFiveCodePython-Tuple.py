@@ -26,3 +26,9 @@ print(tuple.index('damla'))
 
 tupleDemet = ('11','22','33','44','55','66','77','88','99','00')
 print(tupleDemet[0:3])
+
+tupleDemet = tupleDemet+tupleDemet
+print(tupleDemet[0:8:2])
+print(tupleDemet[::-1]) 
+print(tupleDemet[::1])
+print(tupleDemet.index('11'))

@@ -67,3 +67,11 @@ print(result)
 #11 - Yazıyı sağa yasla
 result = Yazı.rjust(180,"*")    
 print(result)
+
+#12 - Yazıyı sola yasla
+result = Yazı.ljust(180,"*")
+print(result)
+
+#13 - Yazıyı büyük harf yap
+result = Yazı.upper()
+print(result)
